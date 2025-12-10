@@ -8,13 +8,16 @@
     <link href="https://fonts.googleapis.com/css2?family=Chewy&display=swap" rel="stylesheet">
     <style>
       body {
-        background-image: url("https://images.rawpixel.com/image_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTA1L3BmLXMxMTMtYWstNTEyMy1zcy0wMi5qcGc.jpg");
+        background-color: red;
       }
       h1 {
         font-family: "Chewy", system-ui;
         text-align: center;
         font-size: 70px;
         color: darkblue;
+        /* Copy code to element you want to animate */
+        animation: gibberishfdsakjfhskja 1s ease 0s infinite normal none;
+        
       }
       h2 {
         font-family: "Chewy", system-ui;
@@ -41,9 +44,59 @@
       }
 
       img {
-        width: 30%;
+        width: 200px;
         border-radius: 10px;
       }
+
+      img:hover {
+        animation: customAni 2s ease 0s infinite normal none;
+      }
+
+      /* Copy this code after the above code */
+      @keyframes gibberishfdsakjfhskja {
+  0% {
+	transform: rotate(0);
+	transform-origin: top;
+  }
+
+  100% {
+	transform: rotate(360deg);
+	transform-origin: top;
+  }
+      }
+
+
+      @keyframes customAni {
+  0% {
+	transform: scale3d(1, 1, 1);
+  }
+
+  30% {
+	transform: scale3d(0.75, 1.25, 1);
+  }
+
+  40% {
+	transform: scale3d(1.25, 0.75, 1);
+  }
+
+  50% {
+	transform: scale3d(0.85, 1.15, 1);
+  }
+
+  65% {
+	transform: scale3d(1.05, 0.95, 1);
+  }
+
+  75% {
+	transform: scale3d(0.95, 1.05, 1);
+  }
+
+  100% {
+	transform: scale3d(1, 1, 1);
+  }
+      }
+
+
     </style>
   </head>
   <body>
@@ -52,38 +105,46 @@
     <div class="us">
       <div class="lag">
         <h2>LaGuardia Student</h2>
-        <p><b>First Name: </b> Jocelyn</p>
-        <p><b>Favorite Subject: </b>Web Development</p>
+        <p><b>First Name: </b> Estlin</p>
+        <p><b>Favorite Subject: </b>sculpture</p>
         <center>
           <img
-            src="https://mshallwebdevelopment.wordpress.com/wp-content/uploads/2024/05/cropped-2023_webdevlogo_transpnoyear.png?w=1024"
+            src="https://treecarving.co.uk/wp-content/uploads/2020/10/121823874_10158050024488214_7320123032541541851_o-1.jpg"
           />
         </center>
-        <p><b>Favorite Movie: </b>Moana</p>
+        <p><b>Favorite TV Show </b>Community</p>
         <center>
           <img
-            src="https://lumiere-a.akamaihd.net/v1/images/p_moana_20530_214883e3.jpeg?region=0%2C0%2C540%2C810"
+            src="https://m.media-amazon.com/images/I/91amVt40H1L._AC_UF1000,1000_QL80_.jpg"
           />
         </center>
-        <p><b>Favorite Book: </b>The Bad Guys</p>
+        <p><b>Favorite Book: </b>haroun and the sea of stories</p>
         <center>
-          <img src="https://m.media-amazon.com/images/I/91GCdFWzH-L.jpg" />
+          <img src="https://m.media-amazon.com/images/I/81hkV1si5mL._AC_UF1000,1000_QL80_.jpg" />
+          <p><b>Favorite Fish: </b> Sockeye Salmon</p>
+        <center>
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Oncorhynchus_nerka_2.jpg/1200px-Oncorhynchus_nerka_2.jpg" />
+        </center>
         </center>
       </div>
       <div class="ps199">
         <h2>PS 199 Student</h2>
-        <p><b>First Name: </b> ****Name**** </p>
-        <p><b>Favorite Subject: </b> ****Subject****</p>
+        <p><b>First Name: </b> Kelsey</p>
+        <p><b>Favorite Subject: </b> technology</p>
         <center>
-          <img src="" />
+          <img src="https://res.cloudinary.com/jerrick/image/upload/v1684228062/646347defe2711001ddaaeab.jpg" />
         </center>
-        <p><b>Favorite Movie: </b> ****Movie****</p>
+        <p><b>Favorite TV Show </b> 3 Body Problem</p>
         <center>
-          <img src="" />
+          <img src="https://m.media-amazon.com/images/M/MV5BMDdkYWZiZWYtMzA0Yi00NzNlLThkODktY2Q3N2NjN2ExZmMwXkEyXkFqcGc@._V1_.jpg" />
         </center>
-        <p><b>Favorite Book: </b> ****Book****</p>
+        <p><b>Favorite Book: </b> Fahrenheit 451</p>
         <center>
-          <img src="" />
+          <img src="https://d28hgpri8am2if.cloudfront.net/book_images/onix/cvr9781668218181/fahrenheit-451-deluxe-slipcase-edition-9781668218181_hr.jpg" />
+        </center>
+        <p><b>Favorite Fish: </b> Anglerfish</p>
+        <center>
+          <img src="https://static01.nyt.com/images/2019/07/29/science/29SCI-ANGLERFISH-promo/29SCI-ANGLERFISH-promo-superJumbo.jpg" />
         </center>
       </div>
     </div>
